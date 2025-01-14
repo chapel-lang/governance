@@ -28,9 +28,10 @@ efforts being done across the project.
 
 As a founding member of the Chapel project who has been continually
 involved with it since the outset, Brad has served in this role since
-2006.  In practice, he serves as something of a
-[BDFL](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
-role for the project to date.
+2006 after inheriting it from David Callahan.  Generally speaking,
+Brad strives to follow the direction of the community when that is
+clear.  He has the ability to serve as an authority in decision-making
+cases, as noted [below](#decision-making).
 
 
 **Subteam Leads**
@@ -55,33 +56,32 @@ At present, the Chapel subteam leads are as follows:
 * User Support / Language Stabilization: [Lydia Duncan](https://github.com/lydia-duncan)
 
 
-Core Contributors
------------------
+Committers
+----------
 
-Role: Core contributors are those who have merge privileges to the
+Role: Committers are those who have merge-commit privileges to the
 [main Chapel repository](https://github.com/chapel-lang/chapel).
 These team members are expected to participate in reviewing PRs for
-appropriateness, consistency, and potential security issues.  Core
-contributors are also typically expected to help with triaging
-failures in the nightly regression tests, though exceptions are often
-made for those who are also serving as managers on the team or
+appropriateness, consistency, and potential security issues.
+Committers are also typically expected to help with triaging failures
+in the nightly regression tests on a rotating basis, though exceptions
+are made for those who are also serving as managers on the team or
 spending most of their time on other projects.
 
-All PRs are expected to be reviewed by at least one core contributor
-other than the PR's author; specifically, PRs created by a core
-contributor should typically be reviewed by another core contributor.
-An exception exists for PRs considered "trivial"—so simple or
-straightforward that asking for a review would feel like a waste of a
-colleague's time rather than a benefit to the project.  When in doubt,
-a review should be requested.  Core contributors who don't feel
-confident reviewing a PR will typically call in additional core
-contributors to help with the review or provide additional thoughts.
-A core contributor who authors or merges a PR is typically responsible
-for any testing fallout caused by that PR, typically by involving the
-PR's author when it was not theirs.  In some cases, the reviewing core
-contributor or another volunteer may step up to help out.
+All PRs are expected to be reviewed by at least one committer other
+than the PR's author; specifically, PRs created by a committer should
+typically be reviewed by another committer.  An exception exists for
+PRs considered "trivial"—so simple or straightforward that asking for
+a review would feel like a waste of a colleague's time rather than a
+benefit to the project.  When in doubt, a review should be requested.
+Committers who don't feel confident reviewing a PR will typically call
+in additional committers to help with the review or provide additional
+thoughts.  A committer who authors or merges a PR is typically
+responsible for any testing fallout caused by that PR, typically by
+involving the PR's author when it was not theirs.  In some cases, the
+reviewing committer or another volunteer may step up to help out.
 
-At present, the list of core contributors includes all of the
+At present, the list of committers includes all of the
 technical leaders listed previously, as well as:
 
 * [Jade Abraham](https://github.com/jabraham17)
@@ -105,15 +105,24 @@ Decision-Making
 ---------------
 
 Generally speaking, decision-making on the Chapel project is done by
-the technical leadership and core contributors in this section on a
-consensus basis, taking the opinions of end-users into account when
-the decision is likely to affect them.
+the technical leadership and committers in this section on a consensus
+basis, taking the opinions of end-users into account when the decision
+is likely to affect them.  Project-wide decisions tend to involve all
+technical leads and committers, while those that are specific to a
+given effort can be made by a subteam lead and its members, keeping
+the tech lead apprised of key decisions.
 
-For non-trivial internal decisions, or initial explorations into
-public decisions, the project typically forms an ad hoc subteam of at
-least three core contributors to explore the topic and propose a
-solution, where anyone on the team is encouraged to participate if
-they are interested.  Once the subteam has reached a conclusion, it is
+Votes are rarely taken in a binding manner, but are often used to
+gauge the level of support for an idea or direction.  In such votes,
+those in the minority are typically given the opportunity to continue
+to push for alternative approaches, or to concede to the majority,
+having registered their opinion.
+
+For non-trivial decisions, or initial explorations into possible
+directions, the project typically forms an ad hoc subteam including at
+least three committers to explore the topic and propose a solution,
+where anyone on the team is encouraged to participate if they are
+interested.  Once the subteam has reached a conclusion, it is
 summarized back to the full team.  Generally speaking, those who did
 not join the subteam are expected to go along with the subteam's
 decision, unless they have an insight or strong reason that the
@@ -131,7 +140,10 @@ to get their feedback by pointing them to the GitHub issues or
 contacting them directly.  For some of the most impactful changes, we
 have run polls and worked hard to involve as many users as possible in
 order to avoid surprises and attempt to develop a consensus community
-view.
+view.  In extreme cases, the tech lead may veto a decision, though it
+is expected that this would be used only very rarely.  They may also
+serve as a final decision-maker in the event that the community can't
+come to a decision.
 
 
 Community Contributors
