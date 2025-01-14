@@ -16,7 +16,7 @@ feel encouraged to capture those in an issue on this repository, or to
 
 ## Technical Leadership
 
-**Technical Lead:** [Brad Chamberlain](bradcray)
+**Technical Lead:** [Brad Chamberlain](https://github.com/bradcray)
 
 Role: Generally speaking, the role of the project technical lead has
 been to help guide decisions for the project in ways that are
@@ -47,7 +47,7 @@ At present, the Chapel subteam leads are as follows:
 * Community Management: [Brandon Neth](https://github.com/brandon-neth)
 * Compiler: [Ben Harshbarger](https://github.com/benharsh)
 * DevOps: [Tim Zinsky](https://github.com/tzinsky)
-* GPU: [Engin Kayraklioglu](e-kayrakli)
+* GPU: [Engin Kayraklioglu](https://github.com/e-kayrakli)
 * Performance: [Andy Stone](https://github.com/stonea)
 * Runtime / Platform / Portability: [John Hartman](https://github.com/jhh67)
 * User Support / Language Stabilization: [Lydia Duncan](https://github.com/lydia-duncan)
