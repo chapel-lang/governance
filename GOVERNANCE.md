@@ -132,8 +132,8 @@ could not have been, aware of.  In practice, this has happened only
 very rarely.
 
 Decisions that relate to the design of the language or libraries are
-captured and discussed on public [GitHub
-issues](https://github.com/chapel-lang/chapel/issues?q=is%3Aissue%20label%3A%22type%3A%20Design%22)
+captured and discussed on public [GitHub issues labeled with `type:
+Design`](https://github.com/chapel-lang/chapel/issues?q=is%3Aissue%20label%3A%22type%3A%20Design%22)
 as a means of soliciting input from the community. Many of these
 issues are opened or requested by users directly. Decisions that are
 particularly impactful to user codes are advertised directly to users
