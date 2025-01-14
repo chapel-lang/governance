@@ -2,41 +2,47 @@
 
 This file describes the current governance of the Chapel Language
 project, covering both the language's definition and the code base
-implementing its compiler, library modules, and runtime.  It was last
-updated in January 2025.
+that implements its compiler, library modules, and runtime.  It was
+last updated in January 2025.
 
-We anticipate improving the Chapel project's governance, with the aim
-of making it more of a community-governed project, over time.  If this
-is of interest to you, please let us know.  If you have specific
-requests with respect to how the project is governed, please open an
-issue on this repository.
+Over time, we anticipate improving the Chapel project's governance,
+with the goal of making it more of a community-governed project.  If
+this topic is of interest to you, or you would like to play a role in
+that transition or its result, please let us know.  If you have
+specific requests with respect to how the project is governed, please
+feel encouraged to capture those in an issue on this repository, or to
+[reach out to the community](https://chapel-lang.org/community/).
 
 
 ## Technical Leadership
 
 **Technical Lead:** [Brad Chamberlain](bradcray)
 
-Role: Generally speaking, the role of the project technical lead is to
-help guide technical decisions for the project in ways that are
+Role: Generally speaking, the role of the project technical lead has
+been to help guide decisions for the project in ways that are
 technically sound, responsive to user needs and concerns, cognizant of
-the project's history and past direction, and compatible with other
-decisions being made across the project.  As a founding member of the
-Chapel project who has been continually involved with it since the
-outset, Brad has served in this role since ~2006, making him something
-like the project's BDFL.
+the project's history and past decisions, and compatible with other
+efforts being done across the project.
+
+As a founding member of the Chapel project who has been continually
+involved with it since the outset, Brad has served in this role since
+2006.  In practice, he serves as something of a
+[BDFL](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+role for the project to date.
 
 
 **Subteam Leads**
 
 Role: As the scope of the Chapel project has grown, a number of
-subteams have been formed to focus on specific initiatives at finer
+subteams have been spun up to focus on specific initiatives at finer
 granularities.  Generally speaking, these subteam leads have a great
-deal of latitude in making decisions supporting their goals, but are
-encouraged to keep the technical lead in the loop, particularly for
-decisions that are contentious, represent a significant change in
-direction, or have the possibility of impacting other subteams.
+deal of latitude in making decisions to meet their goals, but are
+expected to keep the technical lead aware of major decisions,
+particularly for those that are contentious, represent a significant
+change in direction, or have the possibility of impacting other
+subteams.
 
-At present, the subteam leads are as follows:
+At present, the Chapel subteam leads are as follows:
 
 * Community Management: [Brandon Neth](https://github.com/brandon-neth)
 * Compiler: [Ben Harshbarger](https://github.com/benharsh)
@@ -47,7 +53,7 @@ At present, the subteam leads are as follows:
 * User Support / Language Stabilization: [Lydia Duncan](https://github.com/lydia-duncan)
 
 
-**Core Contributors**
+## Core Contributors
 
 Role: Core contributors are those who have merge privileges to the
 [main Chapel repository](https://github.com/chapel-lang/chapel).
@@ -55,9 +61,8 @@ These team members are expected to participate in reviewing PRs for
 appropriateness, consistency, and potential security issues.  Core
 contributors are also typically expected to help with triaging
 failures in the nightly regression tests, though exceptions are often
-made for core contributors who are also serving as managers on the
-team, focusing on DevOps or Build/Test/Release issues, or spending
-most of their time on other projects.
+made for those who are also serving as managers on the team or
+spending most of their time on other projects.
 
 All PRs are expected to be reviewed by at least one core contributor
 other than the PR's author; specifically, PRs created by a core
@@ -70,8 +75,8 @@ confident reviewing a PR will typically call in additional core
 contributors to help with the review or provide additional thoughts.
 A core contributor who authors or merges a PR is typically responsible
 for any testing fallout caused by that PR, typically by involving the
-PR's author.  In some cases, the reviewing core contributor or another
-volunteer may step up to help out.
+PR's author when it was not theirs.  In some cases, the reviewing core
+contributor or another volunteer may step up to help out.
 
 At present, the list of core contributors includes all of the
 technical leaders listed previously, as well as:
@@ -93,12 +98,12 @@ technical leaders listed previously, as well as:
 * [Karlon West](https://github.com/karlonw)
 
 
-** Decision-Making **
+## Decision-Making
 
 Generally speaking, decision-making on the Chapel project is done by
-the technical leadership and contributors in this section on a
+the technical leadership and core contributors in this section on a
 consensus basis, taking the opinions of end-users into account when
-the decision is likely to effect them.
+the decision is likely to affect them.
 
 For non-trivial internal decisions, or initial explorations into
 public decisions, the project typically forms an ad hoc subteam of at
@@ -108,8 +113,9 @@ they are interested.  Once the subteam has reached a conclusion, it is
 summarized back to the full team.  Generally speaking, those who did
 not join the subteam are expected to go along with the subteam's
 decision, unless they have an insight or strong reason that the
-proposal is untenable, particularly if it involves factors the subteam
-was unaware of.  In practice, this happens only very rarely.
+proposal is untenable—particularly if it involves factors the subteam
+was not, or could not have been, aware of.  In practice, this has
+happened only very rarely.
 
 Decisions that relate to the design of the language or libraries are
 captured and discussed on public [GitHub
@@ -131,10 +137,10 @@ documentation changes that are part of the project's release
 artifacts, typically by directly opening a [pull request (PR) against
 the main project
 repository](https://github.com/chapel-lang/chapel/pulls) that contains
-their commits to improve the code base or documentation.  The commits
-within a PR must be signed off to certify conformance with the
-[Developers Certificate of
-Origin](https://github.com/chapel-lang/chapel/blob/main/.github/CONTRIBUTING.md).
+their commits to improve the code base and/or documentation.  The
+commits within a PR must be signed off to certify conformance with the
+[Developers Certificate of Origin
+(DCO)](https://github.com/chapel-lang/chapel/blob/main/.github/CONTRIBUTING.md).
 
 As noted above, such PRs must be reviewed and merged by a core
 contributor as a means of maintaining and improving the quality of the
@@ -153,10 +159,11 @@ active most recently.
 
 Role: This role describes those who are active in the community and
 aid us in making the Chapel language and implementation better through
-suggestions, questions, feature requests, corrections, and the like
-rather than through specific contributions of code and documentation.
-We greatly value such contributions to the effort, and our project has
-improved immensely as a result of it.  We do not currently track a
-list of people in this role because of its ephemeral nature, but it is
-not difficult to find such contributors in our [community
-forums](https://chapel-lang.org/community/), present and past.
+suggestions, questions, feature requests, bug reports, and the like
+(rather than through direct contributions of code or documentation).
+Such contributions are invaluable to the project's effort, and Chapel
+has improved immensely over time as a result of it.  We do not
+currently track a list of people in this role due to the challenge in
+doing so, but it is easy to identify many such individuals through
+their actions on GitHub and in our [community
+forums](https://chapel-lang.org/community/).
