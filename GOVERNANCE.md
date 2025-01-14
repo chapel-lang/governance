@@ -53,7 +53,7 @@ At present, the Chapel subteam leads are as follows:
 * GPU: [Engin Kayraklioglu](https://github.com/e-kayrakli)
 * Performance: [Andy Stone](https://github.com/stonea)
 * Runtime, Platform, and Portability: [John Hartman](https://github.com/jhh67)
-* User Support / Language Stabilization: [Lydia Duncan](https://github.com/lydia-duncan)
+* User Support: [Lydia Duncan](https://github.com/lydia-duncan)
 
 
 Committers
