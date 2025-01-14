@@ -118,17 +118,17 @@ those in the minority are typically given the opportunity to continue
 to push for alternative approaches, or to concede to the majority,
 having registered their opinion.
 
-For non-trivial decisions, or initial explorations into possible
-directions, the project typically forms an ad hoc subteam including at
-least three committers to explore the topic and propose a solution,
-where anyone on the team is encouraged to participate if they are
-interested.  Once the subteam has reached a conclusion, it is
-summarized back to the full team.  Generally speaking, those who did
-not join the subteam are expected to go along with the subteam's
-decision, unless they have an insight or strong reason that the
-proposal is untenable—particularly if it involves factors the subteam
-was not, or could not have been, aware of.  In practice, this has
-happened only very rarely.
+For non-trivial decisions in language design, library APIs, or code
+architecture, the project or subteam typically forms an ad hoc subteam
+including at least three committers to explore the topic and propose a
+solution, where anyone on the broader team is encouraged to
+participate if they feel interested or invested.  Once the ad hoc
+subteam has reached a conclusion, it is summarized back to the full
+team.  Generally speaking, those who did not join the ad hoc subteam
+are expected to go along with its decision, unless they have an
+insight or strong reason that the proposal is untenable—particularly
+if it involves factors the subteam was not, or could not have been,
+aware of.  In practice, this has happened only very rarely.
 
 Decisions that relate to the design of the language or libraries are
 captured and discussed on public [GitHub
