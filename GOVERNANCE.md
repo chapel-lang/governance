@@ -131,11 +131,15 @@ documentation changes that are part of the project's release
 artifacts, typically by directly opening a [pull request (PR) against
 the main project
 repository](https://github.com/chapel-lang/chapel/pulls) that contains
-their commits to improve the code base or documentation.  As noted
-above, such PRs must be reviewed and merged by a core contributor as a
-means of maintaining and improving the quality of the code base, and
-to help manage any fallout that may show up afterwards, such as
-failures or performance regressions in the nightly testing.
+their commits to improve the code base or documentation.  The commits
+within a PR must be signed off to certify conformance with the
+[Developers Certificate of
+Origin](https://github.com/chapel-lang/chapel/blob/main/.github/CONTRIBUTING.md).
+
+As noted above, such PRs must be reviewed and merged by a core
+contributor as a means of maintaining and improving the quality of the
+code base, and to help manage any fallout that may show up afterwards,
+such as failures or performance regressions in the nightly testing.
 
 Our project tracks the list of core and community contributors in the
 main repository's
@@ -143,3 +147,16 @@ main repository's
 file, separately identifying those who have contributed to the most
 recent release as a means of giving distinction to those who have been
 active most recently.
+
+
+## Community Collaborators and Users
+
+Role: This role describes those who are active in the community and
+aid us in making the Chapel language and implementation better through
+suggestions, questions, feature requests, corrections, and the like
+rather than through specific contributions of code and documentation.
+We greatly value such contributions to the effort, and our project has
+improved immensely as a result of it.  We do not currently track a
+list of people in this role because of its ephemeral nature, but it is
+not difficult to find such contributors in our [community
+forums](https://chapel-lang.org/community/), present and past.
