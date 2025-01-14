@@ -1,4 +1,5 @@
-# Governance of the Chapel Project
+Governance of the Chapel Project
+================================
 
 This file describes the current governance of the Chapel Language
 project, covering both the language's definition and the code base
@@ -14,7 +15,8 @@ feel encouraged to capture those in an issue on this repository, or to
 [reach out to the community](https://chapel-lang.org/community/).
 
 
-## Technical Leadership
+Technical Leadership
+--------------------
 
 **Technical Lead:** [Brad Chamberlain](https://github.com/bradcray)
 
@@ -53,7 +55,8 @@ At present, the Chapel subteam leads are as follows:
 * User Support / Language Stabilization: [Lydia Duncan](https://github.com/lydia-duncan)
 
 
-## Core Contributors
+Core Contributors
+-----------------
 
 Role: Core contributors are those who have merge privileges to the
 [main Chapel repository](https://github.com/chapel-lang/chapel).
@@ -98,7 +101,8 @@ technical leaders listed previously, as well as:
 * [Karlon West](https://github.com/karlonw)
 
 
-## Decision-Making
+Decision-Making
+---------------
 
 Generally speaking, decision-making on the Chapel project is done by
 the technical leadership and core contributors in this section on a
@@ -130,7 +134,8 @@ order to avoid surprises and attempt to develop a consensus community
 view.
 
 
-## Community Contributors
+Community Contributors
+----------------------
 
 Role: This role describes those who have contributed code or
 documentation changes that are part of the project's release
@@ -155,7 +160,8 @@ recent release as a means of giving distinction to those who have been
 active most recently.
 
 
-## Community Collaborators and Users
+Community Collaborators and Users
+---------------------------------
 
 Role: This role describes those who are active in the community and
 aid us in making the Chapel language and implementation better through
