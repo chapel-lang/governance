@@ -39,8 +39,8 @@ cases, as noted [below](#decision-making).
 Role: As the scope of the Chapel project has grown, a number of
 subteams have been spun up to focus on specific initiatives at finer
 granularities.  Generally speaking, these subteam leads have a great
-deal of latitude in making decisions to meet their goals, but are
-expected to keep the technical lead aware of major decisions,
+deal of latitude in making decisions to meet their subteams' goals,
+but are expected to keep the technical lead aware of major decisions,
 particularly for those that are contentious, represent a significant
 change in direction, or have the possibility of impacting other
 subteams.
@@ -52,7 +52,7 @@ At present, the Chapel subteam leads are as follows:
 * DevOps: [Tim Zinsky](https://github.com/tzinsky)
 * GPU: [Engin Kayraklioglu](https://github.com/e-kayrakli)
 * Performance: [Andy Stone](https://github.com/stonea)
-* Runtime / Platform / Portability: [John Hartman](https://github.com/jhh67)
+* Runtime, Platform, and Portability: [John Hartman](https://github.com/jhh67)
 * User Support / Language Stabilization: [Lydia Duncan](https://github.com/lydia-duncan)
 
 
@@ -105,12 +105,12 @@ Decision-Making
 ---------------
 
 Generally speaking, decision-making on the Chapel project is done by
-the technical leadership and committers in this section on a consensus
-basis, taking the opinions of end-users into account when the decision
-is likely to affect them.  Project-wide decisions tend to involve all
-technical leads and committers, while those that are specific to a
-given effort can be made by a subteam lead and its members, keeping
-the tech lead apprised of key decisions.
+the technical leadership and committers on a consensus basis, taking
+the opinions of end-users into account when the decision is likely to
+affect them.  Project-wide decisions tend to involve all technical
+leads and committers, while those that are specific to a given effort
+can be made by a subteam lead and its members, keeping the technical
+lead apprised of key decisions.
 
 Votes are rarely taken in a binding manner, but are often used to
 gauge the level of support for an idea or direction.  In such votes,
@@ -124,26 +124,28 @@ including at least three committers to explore the topic and propose a
 solution, where anyone on the broader team is encouraged to
 participate if they feel interested or invested.  Once the ad hoc
 subteam has reached a conclusion, it is summarized back to the full
-team.  Generally speaking, those who did not join the ad hoc subteam
-are expected to go along with its decision, unless they have an
-insight or strong reason that the proposal is untenable—particularly
-if it involves factors the subteam was not, or could not have been,
-aware of.  In practice, this has happened only very rarely.
+team.  Generally speaking, those who did not volunteer to join the ad
+hoc subteam are expected to go along with its decision, unless they
+have an insight or strong reason that the proposal is
+untenable—particularly if it involves factors the subteam was not, or
+could not have been, aware of.  In practice, this has happened only
+very rarely.
 
 Decisions that relate to the design of the language or libraries are
 captured and discussed on public [GitHub
-issues](https://github.com/chapel-lang/chapel/issues?q=is%3Aissue) as
-a means of soliciting input from the community. Many of these issues
-are opened or requested by users directly. Decisions that are
+issues](https://github.com/chapel-lang/chapel/issues?q=is%3Aissue%20label%3A%22type%3A%20Design%22)
+as a means of soliciting input from the community. Many of these
+issues are opened or requested by users directly. Decisions that are
 particularly impactful to user codes are advertised directly to users
 to get their feedback by pointing them to the GitHub issues or
 contacting them directly.  For some of the most impactful changes, we
 have run polls and worked hard to involve as many users as possible in
 order to avoid surprises and attempt to develop a consensus community
-view.  In extreme cases, the tech lead may veto a decision, though it
-is expected that this would be used only very rarely.  They may also
-serve as a final decision-maker in the event that the community can't
-come to a decision.
+view.  The technical lead may serve as a final decision-maker in the
+event that the community can't come to a decision.  In extreme cases,
+the technical lead may veto a decision, though it is expected that
+this would be used only very rarely.
+
 
 
 Community Contributors
@@ -180,7 +182,7 @@ aid us in making the Chapel language and implementation better through
 suggestions, questions, feature requests, bug reports, and the like
 (rather than through direct contributions of code or documentation).
 Such contributions are invaluable to the project's effort, and Chapel
-has improved immensely over time as a result of it.  We do not
+has improved immensely over time as a result of them.  We do not
 currently track a list of people in this role due to the challenge in
 doing so, but it is easy to identify many such individuals through
 their actions on GitHub and in our [community
