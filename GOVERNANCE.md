@@ -78,7 +78,7 @@ Committers who don't feel confident reviewing a PR will typically call
 in additional committers to help with the review or provide additional
 thoughts.  A committer who authors or merges a PR is typically
 responsible for any testing fallout caused by that PR, typically by
-involving the PR's author when it was not theirs.  In some cases, the
+involving the author when the PR was not theirs.  In some cases, the
 reviewing committer or another volunteer may step up to help out.
 
 At present, the list of committers includes all of the
@@ -119,7 +119,7 @@ to push for alternative approaches, or to concede to the majority,
 having registered their opinion.
 
 For non-trivial decisions in language design, library APIs, or code
-architecture, the project or subteam typically forms an ad hoc subteam
+architecture, the project or subteam often forms an ad hoc subteam
 including at least three committers to explore the topic and propose a
 solution, where anyone on the broader team is encouraged to
 participate if they feel interested or invested.  Once the ad hoc
@@ -137,14 +137,14 @@ Design`](https://github.com/chapel-lang/chapel/issues?q=is%3Aissue%20label%3A%22
 as a means of soliciting input from the community. Many of these
 issues are opened or requested by users directly. Decisions that are
 particularly impactful to user codes are advertised directly to users
-to get their feedback by pointing them to the GitHub issues or
+to get their feedback, by pointing them to the GitHub issues or
 contacting them directly.  For some of the most impactful changes, we
-have run polls and worked hard to involve as many users as possible in
-order to avoid surprises and attempt to develop a consensus community
-view.  The technical lead may serve as a final decision-maker in the
-event that the community can't come to a decision.  In extreme cases,
-the technical lead may veto a decision, though it is expected that
-this would be used only very rarely.
+run polls and work hard to involve as many users as possible in order
+to avoid surprises and attempt to develop a consensus community view.
+The technical lead may serve as a final decision-maker in the event
+that the community can't come to a decision.  In extreme cases, the
+technical lead may veto a decision, though it is expected that this
+would be used only very rarely.
 
 
 
@@ -153,12 +153,12 @@ Community Contributors
 
 Role: This role describes those who have contributed code or
 documentation changes that are part of the project's release
-artifacts, typically by directly opening a [pull request (PR) against
-the main project
-repository](https://github.com/chapel-lang/chapel/pulls) that contains
-their commits to improve the code base and/or documentation.  The
-commits within a PR must be signed off to certify conformance with the
-[Developers Certificate of Origin
+artifacts.  Such contributions are typically made by directly opening
+a [pull request (PR) against the main project
+repository](https://github.com/chapel-lang/chapel/pulls) containing
+and explaining their proposed changes.  The commits within such PRs
+must be signed to certify conformance with the [Developer Certificate
+of Origin
 (DCO)](https://github.com/chapel-lang/chapel/blob/main/.github/CONTRIBUTING.md).
 
 As noted above, such PRs must be reviewed and merged by a core
@@ -184,6 +184,6 @@ suggestions, questions, feature requests, bug reports, and the like
 Such contributions are invaluable to the project's effort, and Chapel
 has improved immensely over time as a result of them.  We do not
 currently track a list of people in this role due to the challenge in
-doing so, but it is easy to identify many such individuals through
-their actions on GitHub and in our [community
-forums](https://chapel-lang.org/community/).
+doing so accurately and completely, but it is possible to identify
+many such individuals through their interactions on GitHub and in our
+[community forums](https://chapel-lang.org/community/).
