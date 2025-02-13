@@ -6,14 +6,14 @@ project, covering the language's definition; the code base that
 implements its compiler, library modules, and runtime; and the
 project's documentation.  It was last updated in February 2025.  This
 file goes hand-in-hand with the project's technical charter,
-`CHARTER.md`, which defines the project's operations, IP polcy, and
+`CHARTER.md`, which defines the project's operations, IP policy, and
 serves as the core governance of the project's LLC.
 
 Over time, we anticipate improving the Chapel project's governance.
 If you have specific requests with respect to how the project is
 governed, please feel encouraged to capture those in an issue on this
 repository, or to bring it up [in our community
-fprums](https://chapel-lang.org/community/).
+forums](https://chapel-lang.org/community/).
 
 
 This document has two main sections, one defining technical roles and
@@ -31,8 +31,8 @@ community:
 * Committers, who have merge permissions to the repository
 * Contributors, who have contributed technical artifacts into the
   Chapel release
-* Community Collaborators (those who contribute in other ways, notably
-  through feature requests, bug reports, and feedback.
+* Community Collaborators, who contribute in other ways such as
+  feature requests, bug reports, and feedback.
 
 Generally speaking, all committers are contributors, and any
 contributor or community collaborator can request to join the TSC.
