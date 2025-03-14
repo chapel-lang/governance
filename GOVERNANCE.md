@@ -157,14 +157,19 @@ artifacts.  Such contributions are typically made by directly opening
 a [pull request (PR) against the main project
 repository](https://github.com/chapel-lang/chapel/pulls) containing
 and explaining their proposed changes.  The commits within such PRs
-must be signed to certify conformance with the [Developer Certificate
-of Origin
+must be signed by the developer to certify conformance with the
+[Developer Certificate of Origin
 (DCO)](https://github.com/chapel-lang/chapel/blob/main/.github/CONTRIBUTING.md).
 
 As noted above, such PRs must be reviewed and merged by a core
 contributor as a means of maintaining and improving the quality of the
 code base, and to help manage any fallout that may show up afterwards,
 such as failures or performance regressions in the nightly testing.
+
+The contributor role also includes those who regularly triage nightly
+correctness and performance regression test configurations, as well as
+those who help develop and maintain Chapel release artifacts, such as
+formulas for package managers or binary distributions.
 
 Our project tracks the list of core and community contributors in the
 main repository's
