@@ -3,11 +3,12 @@ Governance of the Chapel Project
 
 This file describes the current governance of the Chapel Language
 project, covering the language's definition; the code base that
-implements its compiler, library modules, and runtime; and the
+implements its compiler, library modules, runtime, and tools; and the
 project's documentation.  It was last updated in February 2025.  This
 file goes hand-in-hand with the project's technical charter,
-`CHARTER.md`, which defines the project's operations, IP policy, and
-serves as the core governance of the project's LLC.
+`CHARTER.md`, which defines the project's operations, roles and
+responsibilities, IP policy, and serves as the core governance of the
+project's LLC.
 
 Over time, we anticipate improving the Chapel project's governance.
 If you have specific requests with respect to how the project is
@@ -16,8 +17,8 @@ repository, or to bring it up [in our community
 forums](https://chapel-lang.org/community/).
 
 
-This document has two main sections, one defining technical roles and
-a second outlining the project's decision-making process.
+This document has two main sections: the first defines technical roles
+and the second outlines the project's decision-making process.
 
 
 Technical Roles
@@ -26,16 +27,21 @@ Technical Roles
 This section defines the following technical roles for the Chapel
 community:
 
-* the Technical Steering Committee (TSC) and its Chair or "Tech Lead"
+* the Technical Steering Committee (TSC) and its Chair
+* TSC Chair
+* the Tech Lead
 * Subteam Leads, who are tasked with heading up specific efforts
-* Committers, who have merge permissions to the repository
+* Committers, who have merge permissions to the major repositories
 * Contributors, who have contributed technical artifacts into the
   Chapel release
 * Community Collaborators, who contribute in other ways such as
   feature requests, bug reports, and feedback.
 
 Generally speaking, all committers are contributors, and any
-contributor or community collaborator can request to join the TSC.
+contributor or community collaborator can request to join the TSC.  At
+present, we are lacking a means for a community members to be a
+contributor, but one of the roles of the TSC will be to define this
+process.
 
 
 Technical Steering Committee (TSC)
@@ -43,33 +49,58 @@ Technical Steering Committee (TSC)
 
 Role: The project's overall technical direction is governed by the
 Technical Steering Committee, whose members' roles are detailed in
-`CHARTER.md`.  Current members of the TSC are:
+`CHARTER.md`.  At the inception of the project, TSC membership was
+offered to everyone with commit privileges to the chapel-lang/chapel
+repo.  This led to the current TSC membership, which is:
 
-* TODO...
-* 
+* Jade Abraham
+* Brad Chamberlain
+* Lydia Duncan
+* Daniel Fedorin
+* Abhishek Girish
+* Ben Harshbarger
+* John Hartman
+* Engin Kayraklioglu
+* Shreyas Khandekar
+* Anna Rift
+* Elliot Ronaghan
+* Andy Stone
+* Karlon West
 
 See `CHARTER.md` for additional information about TSC membership,
 roles, and responsibilities.
 
 
-TSC Chair / Tech Lead
----------------------
+TSC Chair
+---------
+
+The TSC may decide to define a chair for the committee and elect
+someone to that role, with responsibilities such as presiding over
+meetings of the TSC and serving as the primary communication point
+between the Chapel project and the High Performance Software
+Foundation (HPSF).  The TSC Chair would serve until their resignation
+or replacement by the TSC.
+
+At the time of this writing, the TSC has not yet met and opted to do,
+so the position of chair is currently undefined and unfilled.
+
+
+Tech Lead
+---------
 
 Role: The project technical lead's role is to help guide decisions for
 the project in ways that are technically sound, responsive to user
 needs and concerns, cognizant of the project's history and past
 decisions, and compatible with other efforts being undertaken across
-the project.  The technical lead serves as the chair of the TSC, and
-in that role, presides over meetings of the TSC and serves as the
-primary communication contact between the Chapel project and the High
-Performance Software Foundation (HPSF).  The TSC Chair will serve
-until their resignation or replacement by the TSC.
+the project.  With the formation of the TSC, the technical lead role
+may be supplanted or ammended by the role of a TSC chair, but this has
+yet to be determined.
 
 [Brad Chamberlain](https://github.com/bradcray) currently holds this
 role, as a founding member of the Chapel project who has been
 continually involved with it since the outset.  Brad has served as the
-technical lead of the project since 2006, after inheriting it from
-David Callahan.
+technical lead of the project since 2006, after inheriting the role
+from David Callahan.
 
 
 Subteam Leads
@@ -86,12 +117,12 @@ other subteams.
 
 At present, the Chapel subteam leads are as follows:
 
-* Community Management: [Brandon Neth](https://github.com/brandon-neth)
+* Community Management: [Abhishek Girish](https://github.com/agirish)
 * Compiler: [Ben Harshbarger](https://github.com/benharsh)
-* DevOps: [Tim Zinsky](https://github.com/tzinsky)
+* DevOps: [Tim Zinsky](https://github.com/arifthpe)
 * GPU: [Engin Kayraklioglu](https://github.com/e-kayrakli)
-* Performance: [Andy Stone](https://github.com/stonea)
-* Runtime, Platform, and Portability: [John Hartman](https://github.com/jhh67)
+* Performance: [Ben Harshbarger](https://github.com/benharsh)
+* Runtime, Platform, and Portability: [Jade Abraham](https://github.com/jabraham17)
 * User Support: [Lydia Duncan](https://github.com/lydia-duncan)
 
 
@@ -113,33 +144,34 @@ typically be reviewed by another committer.  An exception exists for
 PRs considered "trivial"—so simple or straightforward that asking for
 a review would feel like a waste of a colleague's time rather than a
 benefit to the project.  When in doubt, a review should be requested,
-and when a non-trivial PR has been merged, this should be pointed out
-to the Committer, optionally through the TSC Chair.  Committers who
-don't feel confident reviewing a PR will typically call in additional
-committers to help with the review or provide additional thoughts.  A
-committer who authors or merges a PR is typically responsible for any
-testing fallout caused by that PR, typically by involving the author
-when the PR was not theirs.  In some cases, the reviewing committer or
-another volunteer may step up to help out.
+and when a non-trivial PR has been merged without review, this should
+be pointed out to the Committer, optionally through the TSC or Tech
+Lead.  Committers who don't feel confident reviewing a PR will
+typically call in additional committers to help with the review or
+provide additional thoughts.  A committer who authors or merges a PR
+is typically responsible for any testing fallout caused by that PR,
+typically by involving the author when the PR was not theirs.  In some
+cases, the reviewing committer or another volunteer may step up to
+help out.
 
 At present, the list of committers includes all of the
 technical leaders listed previously, as well as:
 
-* [Jade Abraham](https://github.com/jabraham17)
 * [Soohoon Choi](https://github.com/soohoonchoi)
 * [Matt Drozt](https://github.com/MattToast)
 * [Daniel Fedorin](https://github.com/DanilaFe)
 * [Michael Ferguson](https://github.com/mppf)
-* [Abhishek Girish](https://github.com/agirish)
+* [John Hartman](https://github.com/jhh67)
 * [Shreyas Khandekar](https://github.com/ShreyasKhandekar)
-* [Vass Litvinov](https://github.com/vasslitvinov)
 * [David Longnecker](https://github.com/dlongnecke-cray)
 * [Ben McDonald](https://github.com/bmcdonald3)
+* [Brandon Neth](https://github.com/brandon-neth)
 * [Ahmad Rezaii](https://github.com/arezaii)
-* [Anna Rift](https://github.com/riftEmber)
-* [Elliot Ronaghan](https://github.com/ronawho)
+* [Oliver Alvarado Rodriguez](https://github.com/alvaradoo)
+* [Andy Stone](https://github.com/stonea)
 * [Michelle Strout](https://github.com/mstrout)
 * [Karlon West](https://github.com/karlonw)
+* [Tim Zinsky](https://github.com/tzinsky)
 
 
 Community Contributors
@@ -189,10 +221,14 @@ Decision-Making
 Generally speaking, decision-making on the Chapel project is done by
 the technical leadership and committers on a consensus basis, taking
 the opinions of end-users into account when the decision is likely to
-affect them.  Project-wide decisions tend to involve all TSC members
-and committers, while those that are specific to a given effort can be
-made by a subteam lead and its members, keeping the TSC apprised of
-key decisions.
+affect them.  Most decisions are made through GitHub issues, with more
+major ones getting advertised or discussed in public weekly project
+meetings.  Project-wide decisions tend to involve all active
+committers.  Those that are specific to a given effort can be made by
+a subteam lead and its members, keeping other developers and community
+members apprised of key decisions.  When a decision cannot be made by
+consensus among the developer community or appropriate subteam, it
+should be escalated to the TSC for guidance or a vote.
 
 Two flavors of votes are used by the project.  The first type is the
 most common and is used to gauge the level of support for an idea or
@@ -205,8 +241,9 @@ community is from consensus on a given topic.
 
 The second type of vote is a vote of the TSC, which is formal,
 binding, and documented in `CHARTER.md`.  In practice, these votes are
-taken sparingly for matters that involve the project governance or in
-cases where consensus cannot be reached through other means.
+expected to be taken sparingly and reserved for matters that involve
+the project governance or in cases where consensus cannot be reached
+through other means.
 
 For non-trivial decisions in language design, library APIs, or code
 architecture, the project or subteam often forms an ad hoc subteam
@@ -232,7 +269,6 @@ to get their feedback, by pointing them to the GitHub issues or
 contacting them directly.  For some of the most impactful changes, we
 run polls and work hard to involve as many users as possible in order
 to avoid surprises and attempt to develop a consensus community view.
-The TSC chair may serve as a final decision-maker or bring the matter
-to the TSC in the event that the community can't come to a decision.
-In extreme cases, the TSC Chair may veto a decision, though it is
-expected that this would be used only very rarely.
+The tech lead may serve as a final decision-maker or may bring the
+matter to the TSC in the event that the community can't come to a
+decision.
