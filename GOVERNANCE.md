@@ -119,7 +119,7 @@ At present, the Chapel subteam leads are as follows:
 
 * Community Management: [Abhishek Girish](https://github.com/agirish)
 * Compiler: [Ben Harshbarger](https://github.com/benharsh)
-* DevOps: [Tim Zinsky](https://github.com/arifthpe)
+* DevOps: [Anna Rift](https://github.com/arifthpe)
 * GPU: [Engin Kayraklioglu](https://github.com/e-kayrakli)
 * Performance: [Ben Harshbarger](https://github.com/benharsh)
 * Runtime, Platform, and Portability: [Jade Abraham](https://github.com/jabraham17)
