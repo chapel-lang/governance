@@ -4,7 +4,7 @@ Governance of the Chapel Project
 This file describes the current governance of the Chapel Language
 project, covering the language's definition; the code base that
 implements its compiler, library modules, runtime, and tools; and the
-project's documentation.  It was last updated in February 2025.  This
+project's documentation.  It was last updated in September 2025.  This
 file goes hand-in-hand with the project's technical charter,
 `CHARTER.md`, which defines the project's operations, roles and
 responsibilities, IP policy, and serves as the core governance of the
@@ -28,7 +28,6 @@ This section defines the following technical roles for the Chapel
 community:
 
 * the Technical Steering Committee (TSC) and its Chair
-* TSC Chair
 * the Tech Lead
 * Subteam Leads, who are tasked with heading up specific efforts
 * Committers, who have merge permissions to the major repositories
