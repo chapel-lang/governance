@@ -186,18 +186,18 @@ must be signed by the developer to certify conformance with the
 [Developer Certificate of Origin
 (DCO)](https://github.com/chapel-lang/chapel/blob/main/.github/CONTRIBUTING.md).
 
-As noted above, such PRs must be reviewed and merged by a core
-contributor as a means of maintaining and improving the quality of the
-code base, and to help manage any fallout that may show up afterwards,
-such as failures or performance regressions in the nightly testing.
+As noted above, such PRs must be reviewed and merged by a Commiter as
+a means of maintaining and improving the quality of the code base, and
+to help manage any fallout that may show up afterwards, such as
+failures or performance regressions in the nightly testing.
 
 The contributor role also includes those who regularly triage nightly
 correctness and performance regression test configurations, as well as
 those who help develop and maintain Chapel release artifacts, such as
 formulas for package managers or binary distributions.
 
-Our project tracks the list of core and community contributors in the
-main repository's
+Our project tracks the list of community contributors (including
+committers) in the main repository's
 [CONTRIBUTORS.md](https://github.com/chapel-lang/chapel/blob/main/CONTRIBUTORS.md)
 file, separately identifying those who have contributed to the most
 recent release as a means of giving distinction to those who have been
