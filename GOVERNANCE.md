@@ -92,7 +92,7 @@ the project in ways that are technically sound, responsive to user
 needs and concerns, cognizant of the project's history and past
 decisions, and compatible with other efforts being undertaken across
 the project.  With the formation of the TSC, the technical lead role
-may be supplanted or ammended by the role of a TSC chair, but this has
+may be supplanted or amended by the role of a TSC chair, but this has
 yet to be determined.
 
 [Brad Chamberlain](https://github.com/bradcray) currently holds this
@@ -186,7 +186,7 @@ must be signed by the developer to certify conformance with the
 [Developer Certificate of Origin
 (DCO)](https://github.com/chapel-lang/chapel/blob/main/.github/CONTRIBUTING.md).
 
-As noted above, such PRs must be reviewed and merged by a Commiter as
+As noted above, such PRs must be reviewed and merged by a committer as
 a means of maintaining and improving the quality of the code base, and
 to help manage any fallout that may show up afterwards, such as
 failures or performance regressions in the nightly testing.
