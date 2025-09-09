@@ -109,10 +109,10 @@ Role: As the scope of the Chapel project has grown, a number of
 subteams have been spun up to focus on specific initiatives at finer
 granularities.  Generally speaking, these subteam leads have a great
 deal of latitude in making decisions to meet their subteams' goals,
-but are expected to keep the TSC, through its chair, aware of major
-decisions, particularly for those that are contentious, represent a
-significant change in direction, or have the possibility of impacting
-other subteams.
+but are expected to keep the TSC, through the tech lead, aware of
+major decisions, particularly for those that are contentious,
+represent a significant change in direction, or have the possibility
+of impacting other subteams.
 
 At present, the Chapel subteam leads are as follows:
 
