@@ -39,7 +39,7 @@ community:
 Generally speaking, all committers are contributors, and any
 contributor or community collaborator can request to join the TSC.  At
 present, we are lacking a means for a community members to be a
-contributor, but one of the roles of the TSC will be to define this
+committer, but one of the roles of the TSC will be to define this
 process.
 
 
