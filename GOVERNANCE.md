@@ -153,19 +153,25 @@ typically by involving the author when the PR was not theirs.  In some
 cases, the reviewing committer or another volunteer may step up to
 help out.
 
-At present, the list of committers includes all of the
-technical leaders listed previously, as well as:
+At present, the list of committers is as follows:
 
+* [Jade Abraham](https://github.com/jabraham17)
+* [Brad Chamberlain](https://github.com/bradcray)
 * [Soohoon Choi](https://github.com/soohoonchoi)
 * [Matt Drozt](https://github.com/MattToast)
+* [Lydia Duncan](https://github.com/lydia-duncan)
 * [Daniel Fedorin](https://github.com/DanilaFe)
 * [Michael Ferguson](https://github.com/mppf)
+* [Abhishek Girish](https://github.com/agirish)
+* [Ben Harshbarger](https://github.com/benharsh)
 * [John Hartman](https://github.com/jhh67)
+* [Engin Kayraklioglu](https://github.com/e-kayrakli)
 * [Shreyas Khandekar](https://github.com/ShreyasKhandekar)
 * [David Longnecker](https://github.com/dlongnecke-cray)
 * [Ben McDonald](https://github.com/bmcdonald3)
 * [Brandon Neth](https://github.com/brandon-neth)
 * [Ahmad Rezaii](https://github.com/arezaii)
+* [Anna Rift](https://github.com/arifthpe)
 * [Oliver Alvarado Rodriguez](https://github.com/alvaradoo)
 * [Andy Stone](https://github.com/stonea)
 * [Michelle Strout](https://github.com/mstrout)
