@@ -6,7 +6,7 @@ project, covering the language's definition; the code base that
 implements its compiler, library modules, runtime, and tools; and the
 project's documentation.  It was last updated in September 2025.  This
 file goes hand-in-hand with the project's technical charter,
-`CHARTER.md`, which defines the project's operations, roles and
+`TechCharter.pdf`, which defines the project's operations, roles and
 responsibilities, IP policy, and serves as the core governance of the
 project's LLC.
 
@@ -48,9 +48,10 @@ Technical Steering Committee (TSC)
 
 Role: The project's overall technical direction is governed by the
 Technical Steering Committee, whose members' roles are detailed in
-`CHARTER.md`.  At the inception of the project, TSC membership was
-offered to everyone with commit privileges to the chapel-lang/chapel
-repo.  This led to the current TSC membership, which is:
+`TechCharter.pdf`.  At the inception of the project, TSC membership
+was offered to everyone with commit privileges to the
+chapel-lang/chapel repo.  This led to the current TSC membership,
+which is:
 
 * Jade Abraham
 * Brad Chamberlain
@@ -66,7 +67,7 @@ repo.  This led to the current TSC membership, which is:
 * Andy Stone
 * Karlon West
 
-See `CHARTER.md` for additional information about TSC membership,
+See `TechCharter.pdf` for additional information about TSC membership,
 roles, and responsibilities.
 
 
@@ -250,10 +251,10 @@ considered a straw poll mechanism to gauge how close or far the
 community is from consensus on a given topic.
 
 The second type of vote is a vote of the TSC, which is formal,
-binding, and documented in `CHARTER.md`.  In practice, these votes are
-expected to be taken sparingly and reserved for matters that involve
-the project governance or in cases where consensus cannot be reached
-through other means.
+binding, and documented in `TechCharter.pdf`.  In practice, these
+votes are expected to be taken sparingly and reserved for matters that
+involve the project governance or in cases where consensus cannot be
+reached through other means.
 
 For non-trivial decisions in language design, library APIs, or code
 architecture, the project or subteam often forms an ad hoc subteam
