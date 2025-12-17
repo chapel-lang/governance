@@ -74,15 +74,26 @@ about TSC membership, roles, and responsibilities.
 TSC Chair
 ---------
 
-The TSC may decide to define a chair for the committee and elect
-someone to that role, with responsibilities such as presiding over
-meetings of the TSC and serving as the primary communication point
-between the Chapel project and the High Performance Software
-Foundation (HPSF).  The TSC Chair would serve until their resignation
-or replacement by the TSC.
+The TSC has decided to establish a chair whose responsibilities will
+be as follows:
 
-At the time of this writing, the TSC has not yet met and opted to do,
-so the position of chair is currently undefined and unfilled.
+* **TSC meetings:** convenes them, sets the agenda, runs them
+* **TSC votes:** establishes and runs them
+  * Breaks ties when needed
+* **HPSF/LF Communications:** Serves as our project’s principal point of contact
+* **HPSF TAC:** Serves as our project’s representative(?)
+* **Delegation:** Can delegate any of the above to someone else in particular instances
+
+It is expected that these responsibilities may evolve over time as
+needs change and/or if more roles are required to share the work.
+Such changes in responsibility would need to be approved by the TSC.
+
+The TSC Chair will serve until their resignation or replacement by the
+TSC.
+
+At the time of this writing, the TSC has not yet elected a chair, and
+Brad Chamberlain has essentially been serving as the de facto chair as
+a continuation of his role at HPE in moving the project to HPSF.
 
 
 Tech Lead
