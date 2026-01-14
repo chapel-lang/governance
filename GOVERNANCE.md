@@ -160,7 +160,6 @@ At present, the list of committers is as follows:
 * [Brad Chamberlain](https://github.com/bradcray)
 * [Soohoon Choi](https://github.com/soohoonchoi)
 * [Matt Drozt](https://github.com/MattToast)
-* [Lydia Duncan](https://github.com/lydia-duncan)
 * [Daniel Fedorin](https://github.com/DanilaFe)
 * [Michael Ferguson](https://github.com/mppf)
 * [Abhishek Girish](https://github.com/agirish)
