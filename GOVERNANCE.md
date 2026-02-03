@@ -74,8 +74,8 @@ about TSC membership, roles, and responsibilities.
 TSC Chair
 ---------
 
-The TSC has decided to establish a chair whose responsibilities will
-be as follows:
+The TSC is led by a chair whose responsibilities are currently as
+follows:
 
 * **TSC meetings:** convenes them, sets the agenda, runs them
 * **TSC votes:** establishes and runs them
@@ -91,9 +91,9 @@ Such changes in responsibility would need to be approved by the TSC.
 The TSC Chair will serve until their resignation or replacement by the
 TSC.
 
-At the time of this writing, the TSC has not yet elected a chair, and
-Brad Chamberlain has essentially been serving as the de facto chair as
-a continuation of his role at HPE in moving the project to HPSF.
+Brad Chamberlain currently holds the role of TSC chair for Chapel,
+having been confirmed by a vote of the TSC that concluded on Feb 3,
+2026.
 
 
 Tech Lead
