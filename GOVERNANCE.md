@@ -53,19 +53,19 @@ TSC membership was offered to everyone with commit privileges to the
 chapel-lang/chapel repo.  This led to the current TSC membership,
 which is:
 
-* Jade Abraham
-* Brad Chamberlain
-* Lydia Duncan
-* Daniel Fedorin
-* Abhishek Girish
-* Ben Harshbarger
-* John Hartman
-* Engin Kayraklioglu
-* Shreyas Khandekar
-* Anna Rift
-* Elliot Ronaghan
-* Andy Stone
-* Karlon West
+* [Jade Abraham](https://github.com/jabraham17)
+* [Brad Chamberlain](https://github.com/bradcray)
+* [Lydia Duncan](https://github.com/lydia-duncan)
+* [Daniel Fedorin](https://github.com/DanilaFe)
+* [Abhishek Girish](https://github.com/agirish)
+* [Ben Harshbarger](https://github.com/benharsh)
+* [John Hartman](https://github.com/jhh67)
+* [Engin Kayraklioglu](https://github.com/e-kayrakli)
+* [Shreyas Khandekar](https://github.com/ShreyasKhandekar)
+* [Anna Rift](https://github.com/arifthpe)
+* [Elliot Ronaghan](https://github.com/ronawho)
+* [Andy Stone](https://github.com/stonea)
+* [Karlon West](https://github.com/karlonw)
 
 See [TechCharter.pdf](TechCharter.pdf) for additional information
 about TSC membership, roles, and responsibilities.
@@ -74,8 +74,8 @@ about TSC membership, roles, and responsibilities.
 TSC Chair
 ---------
 
-The TSC has decided to establish a chair whose responsibilities will
-be as follows:
+The TSC is led by a chair whose responsibilities are currently as
+follows:
 
 * **TSC meetings:** convenes them, sets the agenda, runs them
 * **TSC votes:** establishes and runs them
@@ -91,9 +91,9 @@ Such changes in responsibility would need to be approved by the TSC.
 The TSC Chair will serve until their resignation or replacement by the
 TSC.
 
-At the time of this writing, the TSC has not yet elected a chair, and
-Brad Chamberlain has essentially been serving as the de facto chair as
-a continuation of his role at HPE in moving the project to HPSF.
+[Brad Chamberlain](https://github.com/bradcray) currently holds the
+role of TSC chair for Chapel, having been confirmed by a vote of the
+TSC that concluded on Feb 3, 2026.
 
 
 Tech Lead
