@@ -53,19 +53,19 @@ TSC membership was offered to everyone with commit privileges to the
 chapel-lang/chapel repo.  This led to the current TSC membership,
 which is:
 
-* Jade Abraham
-* Brad Chamberlain
-* Lydia Duncan
-* Daniel Fedorin
-* Abhishek Girish
-* Ben Harshbarger
-* John Hartman
-* Engin Kayraklioglu
-* Shreyas Khandekar
-* Anna Rift
-* Elliot Ronaghan
-* Andy Stone
-* Karlon West
+* [Jade Abraham](https://github.com/jabraham17)
+* [Brad Chamberlain](https://github.com/bradcray)
+* [Lydia Duncan](https://github.com/lydia-duncan)
+* [Daniel Fedorin](https://github.com/DanilaFe)
+* [Abhishek Girish](https://github.com/agirish)
+* [Ben Harshbarger](https://github.com/benharsh)
+* [John Hartman](https://github.com/jhh67)
+* [Engin Kayraklioglu](https://github.com/e-kayrakli)
+* [Shreyas Khandekar](https://github.com/ShreyasKhandekar)
+* [Anna Rift](https://github.com/arifthpe)
+* [Elliot Ronaghan](https://github.com/ronawho)
+* [Andy Stone](https://github.com/stonea)
+* [Karlon West](https://github.com/karlonw)
 
 See [TechCharter.pdf](TechCharter.pdf) for additional information
 about TSC membership, roles, and responsibilities.
@@ -91,9 +91,9 @@ Such changes in responsibility would need to be approved by the TSC.
 The TSC Chair will serve until their resignation or replacement by the
 TSC.
 
-Brad Chamberlain currently holds the role of TSC chair for Chapel,
-having been confirmed by a vote of the TSC that concluded on Feb 3,
-2026.
+[Brad Chamberlain](https://github.com/bradcray) currently holds the
+role of TSC chair for Chapel, having been confirmed by a vote of the
+TSC that concluded on Feb 3, 2026.
 
 
 Tech Lead
