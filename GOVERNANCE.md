@@ -67,6 +67,38 @@ which is:
 * [Andy Stone](https://github.com/stonea)
 * [Karlon West](https://github.com/karlonw)
 
+
+### Expectations for TSC Members
+
+TSC members are expected to help guide the Chapel project’s direction by:
+* participating in TSC activities such as meetings, discussions, and votes
+* serving as ambassadors of the Chapel project, looking for ways to improve it and grow its community over time
+* being guided by what they consider to be best for the Chapel language, its users, the Chapel project, the historical investment in it, and its success going forward
+* upholding Chapel’s [code of conduct](https://github.com/chapel-lang/chapel?tab=coc-ov-file) and being familiar with its [technical charter](TechCharter.pdf)
+* maintaining GitHub and LFX [openprofile.dev](https://openprofile.dev/) account for the sake of project voting and coordination
+
+
+### Applying to the TSC
+
+Interested parties can apply to join the Chapel TSC by opening a new
+GitHub issue on the TSC repository using the [TSC
+Application](https://github.com/chapel-lang/TSC/issues/new?template=tsc-application.yaml)
+template.  After filing the issue, the TSC will:
+
+1. Review the application
+
+2. Vote on whether to move forward with it or not via simple majority
+   a. If not, provide feedback to the candidate on what more they might do
+      to address the concerns over time
+
+3. Invite the individual to attend a TSC meeting to introduce
+   themselves and answer questions from the TSC
+   
+4. Vote on whether to add the applicant to the TSC or not via simple majority
+
+
+### For additional information
+
 See [TechCharter.pdf](TechCharter.pdf) for additional information
 about TSC membership, roles, and responsibilities.
 
